@@ -1,0 +1,255 @@
+:root {
+    --logo-accent: #4d5ae5;
+    --logo-secondary: #2e2f42;
+  --header-background-color: #ffffff;
+  --heroFooter-background-color: #2e2f42;
+  --privilegeService-background-color: #e5e5e5;
+  --team-background-color: #f4f4fd;
+  --teamItem-background-color: #ffffff;
+  --title-text-color: #2e2f42;
+  --primary-text-color: #434455;
+  --heroFooter-text-color: #ffffff;
+  --hover-buttonLink-color: #404bbf;
+  --hero-button-color: #4d5ae5;
+  --buttons-background-color: #f4f4fd;
+  --buttons-text-color: #4d5ae5;
+  --buttons-border: #e7e9fc;
+  --portfolioItem-background-color: #ffffff;
+  --portfolioItem-border: #e7e9fc;
+  --logo-footer-secondary: #f4f4fd;
+  --body-portfolio-text: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-portfolio-text);
+  background-color: var(--header-background-color)
+}
+
+.body-portfolio {
+    color: var(--body-portfolio-text);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.text {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header {
+  background-color: var(--header-background-color);
+}
+
+.header-navigation {
+}
+
+.logo-accent {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-accent);
+}
+
+.logo-secondary{
+    color: var(--logo-secondary);
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  font-weight: 500;
+  color: var(--title-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--hover-buttonLink-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.address-list {
+}
+
+.address-item {
+}
+
+.address-link {
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--hover-buttonLink-color);
+}
+
+.hero {
+  background-color: var(--heroFooter-background-color);
+}
+
+.hero-title {
+  font-family: inherit;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--heroFooter-text-color);
+}
+
+.buttons-list {
+  list-style: none;
+}
+
+.buttons-item {
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--buttons-background-color);
+  color: var(--buttons-text-color);
+  border: 1px solid var(--buttons-border);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons-btn {
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--heroFooter-text-color);
+  background-color: var(--hover-buttonLink-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--heroFooter-text-color);
+  background-color: var(--hero-button-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--heroFooter-text-color);
+  background-color: var(--hover-buttonLink-color);
+}
+
+.privilege {
+  
+}
+
+.privilege-title {
+  
+}
+
+.privilege-list {
+}
+
+.privilege-item {
+}
+.privilege-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.privilege-item-text {
+  color: var(--primary-text-color);
+}
+
+.services {
+  
+}
+
+.services-title,
+.team-title {
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+
+.services-list {
+}
+
+.services-item {
+  width: 360px;
+  height: 300px;
+}
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.team-list {
+}
+
+.team-item {
+  background-color: var(--teamItem-background-color);
+}
+
+.team-item-text,
+.portfolio-item-text {
+  color: var(--primary-text-color);
+}
+
+.portfolio-services {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+  background-color: var(--portfolioItem-background-color);
+  border: 1px solid var(--portfolioItem-border);
+}
+
+.portfolio-link {
+
+}
+
+.footer {
+  background-color: var(--heroFooter-background-color);
+}
+
+.logo-footer-secondary {
+    color: var(--logo-footer-secondary);
+}
+
+.footer-text {
+  color: var(--heroFooter-text-color);
+}
