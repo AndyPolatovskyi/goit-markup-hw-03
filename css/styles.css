@@ -53,7 +53,7 @@ body {
   width: 1158px;
   /* padding: 0 auto; */
   margin: 0 auto;
-  outline: 3px solid tomato;
+  /* outline: 3px solid tomato; */
 }
 
 .list {
@@ -74,7 +74,7 @@ body {
 }
 
 .section{
-  outline: 3px solid tomato;
+  /* outline: 3px solid tomato; */
   margin-top: 0;
   margin-bottom: 0;
 }
