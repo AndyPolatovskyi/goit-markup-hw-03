@@ -51,7 +51,7 @@ body {
 
 .container {
   width: 1158px;
-  /* padding: 0 auto; */
+  padding: 0 15px;
   margin: 0 auto;
   /* outline: 3px solid tomato; */
 }
@@ -87,11 +87,16 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: var(--header-background-color);
-  border-bottom: 2px solid var(--haeder-border-bottom);
+  border-bottom: 1px solid var(--haeder-border-bottom);
 }
 
-.header-navigation {
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation,
+.header-address {
   display: flex;
   align-items: center;
 }
@@ -141,10 +146,13 @@ body {
   color: var(--hover-buttonLink-color);
 }
 
+.header-address {
+  margin-left: auto;
+}
+
 .address-list {
   font-style: normal;
   display: flex;
-  margin-left: auto;
 }
 
 /* .address-list .address-item:not(:last-child) {
@@ -173,7 +181,6 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 0;
   text-align: center;
   background-color: var(--heroFooter-background-color);
 }
@@ -181,7 +188,7 @@ body {
 .hero-title {
   margin-left: auto;
   margin-right: auto;
-  width: 496px;
+  max-width: 496px;
   margin-top: 0;
   margin-bottom: 48px;
   font-family: inherit;
@@ -347,6 +354,7 @@ body {
 }
 
 .portfolio-services {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -355,8 +363,7 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .buttons-item:not(:last-child) {
